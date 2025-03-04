@@ -11,13 +11,13 @@ int main(void) {
 
   char choice;
 
-  printf("What Operation Would You Like? ");
+  printf("Type the operation: ");
   scanf("%c", &choice);
-  if (choice == "subtraction") {
-    printf("hi");
+  if (choice == "subtraction"){
+    printf("hello");
   }
 
-
+  
   printf("Type your first number: ");
   scanf("%i", &x);
   printf("\nType your second number: ");
