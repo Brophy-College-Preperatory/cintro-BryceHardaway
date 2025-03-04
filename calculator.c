@@ -9,6 +9,15 @@ int main(void) {
          // line
   int y;
 
+  char choice;
+
+  printf("What Operation Would You Like? ");
+  scanf("%c", &choice);
+  if (choice == "subtraction") {
+    printf("hi");
+  }
+
+
   printf("Type your first number: ");
   scanf("%i", &x);
   printf("\nType your second number: ");

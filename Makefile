@@ -1,8 +1,8 @@
-CC = gcc
+CC=gcc
 CFLAGS = -Wall -g
-TARGET = calculator
-SOURCES = calculator.c
-OBJECTS = $(SOURCES:.c=.o)
+TARGET=calculator
+SOURCES=calculator.c
+OBJECTS=$(SOURCES:.c=.o)
 
 all: $(TARGET)
 
